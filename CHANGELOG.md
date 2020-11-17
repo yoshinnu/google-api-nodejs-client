@@ -4,6 +4,36 @@
 
 [1]: https://www.npmjs.com/package/googleapis?activeTab=versions
 
+## [66.0.0](https://www.github.com/googleapis/google-api-nodejs-client/compare/v65.0.0...v66.0.0) (2020-11-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **privateca:** This release has breaking changes.
+* **games:** This release has breaking changes.
+* **dataflow:** This release has breaking changes.
+* **binaryauthorization:** This release has breaking changes.
+
+### Features
+
+* regenerate index files ([e3f88e5](https://www.github.com/googleapis/google-api-nodejs-client/commit/e3f88e569bb6a88770f2cc6c2f153fb7990f6bd3))
+* **analyticsdata:** update the API ([88fac76](https://www.github.com/googleapis/google-api-nodejs-client/commit/88fac764b1e6f86ecd1910ccbd0d4bd24fa5e6a7))
+* **binaryauthorization:** update the API ([5a07026](https://www.github.com/googleapis/google-api-nodejs-client/commit/5a07026503964eea57fa13ef37faf9877d2da186))
+* **dataflow:** update the API ([6309919](https://www.github.com/googleapis/google-api-nodejs-client/commit/63099196a932f8af1e0258e7f986ff21dbaa0527))
+* **games:** update the API ([53dde6a](https://www.github.com/googleapis/google-api-nodejs-client/commit/53dde6ab2e38dab7331074d65129058775976648))
+* **lifesciences:** update the API ([2ababff](https://www.github.com/googleapis/google-api-nodejs-client/commit/2ababffd979392c00c8e9ca0dd13e3daf4c77783))
+* **privateca:** update the API ([d697bd9](https://www.github.com/googleapis/google-api-nodejs-client/commit/d697bd97bcb97985365f759d2537d612dacbf92d))
+* **storage:** update the API ([f5477a6](https://www.github.com/googleapis/google-api-nodejs-client/commit/f5477a63633a36088a0527b8fdbf96d11be33c05))
+
+
+### Bug Fixes
+
+* **admob:** update the API ([f6682b8](https://www.github.com/googleapis/google-api-nodejs-client/commit/f6682b83d2e489dd95acddd44c00e47802a91988))
+* **artifactregistry:** update the API ([30b8c42](https://www.github.com/googleapis/google-api-nodejs-client/commit/30b8c4204e330f7ee4d11ba5798df9009b751e58))
+* **assuredworkloads:** update the API ([9a9c727](https://www.github.com/googleapis/google-api-nodejs-client/commit/9a9c727ea9597ee04010b828199cbd48addd614f))
+* **content:** update the API ([f387900](https://www.github.com/googleapis/google-api-nodejs-client/commit/f387900089ad09d47654ac80f003a69e0f28ccda))
+* **firebasedatabase:** update the API ([b213fcb](https://www.github.com/googleapis/google-api-nodejs-client/commit/b213fcb5e2cb6e0f43d8aeda35d8f1a4661ddb1c))
+
 ## [65.0.0](https://www.github.com/googleapis/google-api-nodejs-client/compare/v64.0.0...v65.0.0) (2020-11-16)
 
 
