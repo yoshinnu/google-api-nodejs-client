@@ -911,7 +911,7 @@ export namespace analyticsdata_v1alpha {
      */
     keepEmptyRows?: boolean | null;
     /**
-     * The number of rows to return. If unspecified, 10 rows are returned. If -1, all rows are returned. To learn more about this pagination parameter, see [Pagination](basics#pagination).
+     * The number of rows to return. If unspecified, 10 rows are returned. If -1, all rows are returned. To learn more about this pagination parameter, see [Pagination](https://developers.google.com/analytics/devguides/reporting/data/v1/basics#pagination).
      */
     limit?: string | null;
     /**
@@ -927,7 +927,7 @@ export namespace analyticsdata_v1alpha {
      */
     metrics?: Schema$Metric[];
     /**
-     * The row count of the start row. The first row is counted as row 0. To learn more about this pagination parameter, see [Pagination](basics#pagination).
+     * The row count of the start row. The first row is counted as row 0. To learn more about this pagination parameter, see [Pagination](https://developers.google.com/analytics/devguides/reporting/data/v1/basics#pagination).
      */
     offset?: string | null;
     /**
@@ -968,7 +968,7 @@ export namespace analyticsdata_v1alpha {
      */
     propertyQuota?: Schema$PropertyQuota;
     /**
-     * The total number of rows in the query result, regardless of the number of rows returned in the response. For example if a query returns 175 rows and includes limit = 50 in the API request, the response will contain row_count = 175 but only 50 rows. To learn more about this pagination parameter, see [Pagination](basics#pagination).
+     * The total number of rows in the query result, regardless of the number of rows returned in the response. For example if a query returns 175 rows and includes limit = 50 in the API request, the response will contain row_count = 175 but only 50 rows. To learn more about this pagination parameter, see [Pagination](https://developers.google.com/analytics/devguides/reporting/data/v1/basics#pagination).
      */
     rowCount?: number | null;
     /**
