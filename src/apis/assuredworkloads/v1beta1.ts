@@ -198,6 +198,10 @@ export namespace assuredworkloads_v1beta1 {
      */
     il4Settings?: Schema$GoogleCloudAssuredworkloadsV1beta1WorkloadIL4Settings;
     /**
+     * Input only. Settings used to create a CMEK crypto key. When set a project with a KMS CMEK key is provisioned. This field is mandatory for a subset of Compliance Regimes.
+     */
+    kmsSettings?: Schema$GoogleCloudAssuredworkloadsV1beta1WorkloadKMSSettings;
+    /**
      * Optional. Labels applied to the workload.
      */
     labels?: {[key: string]: string} | null;
@@ -306,10 +310,6 @@ export namespace assuredworkloads_v1beta1 {
      */
     billingAccount?: string | null;
     /**
-     * Required. Input only. Immutable. Settings specific to resources needed for CJIS.
-     */
-    cjisSettings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadCJISSettings;
-    /**
      * Required. Immutable. Compliance Regime associated with this workload.
      */
     complianceRegime?: string | null;
@@ -326,17 +326,9 @@ export namespace assuredworkloads_v1beta1 {
      */
     etag?: string | null;
     /**
-     * Required. Input only. Immutable. Settings specific to resources needed for FedRAMP High.
+     * Input only. Settings used to create a CMEK crypto key. When set a project with a KMS CMEK key is provisioned. This field is mandatory for a subset of Compliance Regimes.
      */
-    fedrampHighSettings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadFedrampHighSettings;
-    /**
-     * Required. Input only. Immutable. Settings specific to resources needed for FedRAMP Moderate.
-     */
-    fedrampModerateSettings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadFedrampModerateSettings;
-    /**
-     * Required. Input only. Immutable. Settings specific to resources needed for IL4.
-     */
-    il4Settings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadIL4Settings;
+    kmsSettings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadKMSSettings;
     /**
      * Optional. Labels applied to the workload.
      */
@@ -353,42 +345,6 @@ export namespace assuredworkloads_v1beta1 {
      * Output only. The resources associated with this workload. These resources will be created when creating the workload. If any of the projects already exist, the workload creation will fail. Always read only.
      */
     resources?: Schema$GoogleCloudAssuredworkloadsV1WorkloadResourceInfo[];
-  }
-  /**
-   * Settings specific to resources needed for CJIS.
-   */
-  export interface Schema$GoogleCloudAssuredworkloadsV1WorkloadCJISSettings {
-    /**
-     * Required. Input only. Immutable. Settings used to create a CMEK crypto key.
-     */
-    kmsSettings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadKMSSettings;
-  }
-  /**
-   * Settings specific to resources needed for FedRAMP High.
-   */
-  export interface Schema$GoogleCloudAssuredworkloadsV1WorkloadFedrampHighSettings {
-    /**
-     * Required. Input only. Immutable. Settings used to create a CMEK crypto key.
-     */
-    kmsSettings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadKMSSettings;
-  }
-  /**
-   * Settings specific to resources needed for FedRAMP Moderate.
-   */
-  export interface Schema$GoogleCloudAssuredworkloadsV1WorkloadFedrampModerateSettings {
-    /**
-     * Required. Input only. Immutable. Settings used to create a CMEK crypto key.
-     */
-    kmsSettings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadKMSSettings;
-  }
-  /**
-   * Settings specific to resources needed for IL4.
-   */
-  export interface Schema$GoogleCloudAssuredworkloadsV1WorkloadIL4Settings {
-    /**
-     * Required. Input only. Immutable. Settings used to create a CMEK crypto key.
-     */
-    kmsSettings?: Schema$GoogleCloudAssuredworkloadsV1WorkloadKMSSettings;
   }
   /**
    * Settings specific to the Key Management Service.
@@ -876,6 +832,7 @@ export namespace assuredworkloads_v1beta1 {
      *       //   "fedrampHighSettings": {},
      *       //   "fedrampModerateSettings": {},
      *       //   "il4Settings": {},
+     *       //   "kmsSettings": {},
      *       //   "labels": {},
      *       //   "name": "my_name",
      *       //   "provisionedResourcesParent": "my_provisionedResourcesParent",
@@ -1169,6 +1126,7 @@ export namespace assuredworkloads_v1beta1 {
      *   //   "fedrampHighSettings": {},
      *   //   "fedrampModerateSettings": {},
      *   //   "il4Settings": {},
+     *   //   "kmsSettings": {},
      *   //   "labels": {},
      *   //   "name": "my_name",
      *   //   "provisionedResourcesParent": "my_provisionedResourcesParent",
@@ -1497,6 +1455,7 @@ export namespace assuredworkloads_v1beta1 {
      *       //   "fedrampHighSettings": {},
      *       //   "fedrampModerateSettings": {},
      *       //   "il4Settings": {},
+     *       //   "kmsSettings": {},
      *       //   "labels": {},
      *       //   "name": "my_name",
      *       //   "provisionedResourcesParent": "my_provisionedResourcesParent",
@@ -1517,6 +1476,7 @@ export namespace assuredworkloads_v1beta1 {
      *   //   "fedrampHighSettings": {},
      *   //   "fedrampModerateSettings": {},
      *   //   "il4Settings": {},
+     *   //   "kmsSettings": {},
      *   //   "labels": {},
      *   //   "name": "my_name",
      *   //   "provisionedResourcesParent": "my_provisionedResourcesParent",
