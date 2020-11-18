@@ -180,7 +180,7 @@ export namespace admin_directory_v1 {
     kind?: string | null;
   }
   /**
-   * The template that returns individual ASP (Access Code) data. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * The template that returns individual ASP (Access Code) data.
    */
   export interface Schema$Asp {
     /**
@@ -212,9 +212,6 @@ export namespace admin_directory_v1 {
      */
     userKey?: string | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$Asps {
     /**
      * ETag of the resource.
@@ -464,9 +461,6 @@ export namespace admin_directory_v1 {
      */
     type?: string | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$ChromeOsDevice {
     /**
      * List of active time ranges (Read-only)
@@ -648,9 +642,6 @@ export namespace admin_directory_v1 {
     action?: string | null;
     deprovisionReason?: string | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$ChromeOsDevices {
     /**
      * List of Chrome OS Device objects.
@@ -675,9 +666,6 @@ export namespace admin_directory_v1 {
      */
     deviceIds?: string[] | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$Customer {
     /**
      * The customer's secondary contact email address. This email address cannot be on the same domain as the customerDomain
@@ -716,9 +704,6 @@ export namespace admin_directory_v1 {
      */
     postalAddress?: Schema$CustomerPostalAddress;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'address_line2' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'address_line3' to avoid collision. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$CustomerPostalAddress {
     /**
      * A customer's physical address. The address can be composed of one to three lines.
@@ -966,9 +951,6 @@ export namespace admin_directory_v1 {
      */
     nextPageToken?: string | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$Group {
     /**
      * Is the group created by admin (Read-only) *
@@ -1011,9 +993,6 @@ export namespace admin_directory_v1 {
      */
     nonEditableAliases?: string[] | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$Groups {
     /**
      * ETag of the resource.
@@ -1286,7 +1265,7 @@ export namespace admin_directory_v1 {
     nextPageToken?: string | null;
   }
   /**
-   * JSON template for Org Unit resource in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON template for Org Unit resource in Directory API.
    */
   export interface Schema$OrgUnit {
     /**
@@ -1327,7 +1306,7 @@ export namespace admin_directory_v1 {
     parentOrgUnitPath?: string | null;
   }
   /**
-   * JSON response template for List Organization Units operation in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON response template for List Organization Units operation in Directory API.
    */
   export interface Schema$OrgUnits {
     /**
@@ -1482,7 +1461,7 @@ export namespace admin_directory_v1 {
     nextPageToken?: string | null;
   }
   /**
-   * JSON template for Schema resource in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON template for Schema resource in Directory API.
    */
   export interface Schema$Schema {
     /**
@@ -1511,7 +1490,7 @@ export namespace admin_directory_v1 {
     schemaName?: string | null;
   }
   /**
-   * JSON template for FieldSpec resource for Schemas in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON template for FieldSpec resource for Schemas in Directory API.
    */
   export interface Schema$SchemaFieldSpec {
     /**
@@ -1556,7 +1535,7 @@ export namespace admin_directory_v1 {
     readAccessType?: string | null;
   }
   /**
-   * JSON response template for List Schema operation in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON response template for List Schema operation in Directory API.
    */
   export interface Schema$Schemas {
     /**
@@ -1573,7 +1552,7 @@ export namespace admin_directory_v1 {
     schemas?: Schema$Schema[];
   }
   /**
-   * JSON template for token resource in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON template for token resource in Directory API.
    */
   export interface Schema$Token {
     /**
@@ -1610,7 +1589,7 @@ export namespace admin_directory_v1 {
     userKey?: string | null;
   }
   /**
-   * JSON response template for List tokens operation in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON response template for List tokens operation in Directory API.
    */
   export interface Schema$Tokens {
     /**
@@ -1626,9 +1605,6 @@ export namespace admin_directory_v1 {
      */
     kind?: string | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'external_ids' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'relations' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'addresses' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'organizations' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'phones' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'languages' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'posix_accounts' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'ssh_public_keys' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'notes' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'websites' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'locations' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'keywords' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'gender' to avoid collision. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'thumbnail_photo_etag' to avoid collision. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$User {
     /**
      * Addresses of User
@@ -2124,9 +2100,6 @@ export namespace admin_directory_v1 {
      */
     value?: string | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$UserPhoto {
     /**
      * ETag of the resource.
@@ -2223,9 +2196,6 @@ export namespace admin_directory_v1 {
      */
     value?: string | null;
   }
-  /**
-   * STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
-   */
   export interface Schema$Users {
     /**
      * ETag of the resource.
@@ -2293,7 +2263,7 @@ export namespace admin_directory_v1 {
     value?: string | null;
   }
   /**
-   * JSON template for verification codes in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON template for verification codes in Directory API.
    */
   export interface Schema$VerificationCode {
     /**
@@ -2314,7 +2284,7 @@ export namespace admin_directory_v1 {
     verificationCode?: string | null;
   }
   /**
-   * JSON response template for List verification codes operation in Directory API. STEPLADDER: Generated unstable field number for field 'kind'. (See http://go/stepladder-help#fieldNumber) STEPLADDER: Generated unstable field number for field 'etag'. (See http://go/stepladder-help#fieldNumber)
+   * JSON response template for List verification codes operation in Directory API.
    */
   export interface Schema$VerificationCodes {
     /**
